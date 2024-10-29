@@ -1,0 +1,529 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Watch the Movie</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <style>
+        .bg {
+            background-color: black;
+        }
+
+        .navbar {
+            color: white;
+            text-align: start;
+            font-weight: bolder;
+            font-size: 40px;
+            background-color: black;
+        }
+
+        .carousel-inner
+        {
+            
+           text-align:center;
+            margin:40px;
+            padding:15px;
+
+
+        }
+       
+
+        .dropdown-menu {
+            color: blue;
+        }
+
+        .btn {
+            color: white;
+            margin: 35px;
+            background-color: black;
+            font-weight: bolder;
+        }
+
+        .card-title1 {
+            background-color: black;
+            color: darkorange;
+            height: unset;
+            background-size: 10%;
+        }
+
+        .card-text1 {
+            font-family: cursive;
+            font-weight: bold;
+            color: white;
+        }
+
+
+        .card-body1 {
+            background-color: darkblue;
+        }
+
+        .card-shooter1 {
+            color: white;
+            font-weight: bold;
+        }
+
+        .btn1 {
+            background-color: darkblue;
+            font-size: 20px;
+            font-family: cursive;
+            color: orange;
+            text-align: end;
+        }
+
+        .card-title2 {
+            background-color: white;
+            color: orangered;
+            height: unset;
+            background-size: 10%;
+        }
+
+        .card-body2 {
+            background-color: saddlebrown;
+            margin: auto;
+        }
+
+        .card-text2 {
+            font-family: Arial;
+            font-weight: bold;
+            color: orange;
+        }
+
+        .card-shooter2 {
+            color: white;
+            font-weight: bold;
+            background-color: saddlebrown;
+            font-size: 20px;
+            font-family: 'Arial Nova';
+        }
+
+        .btn2 {
+            background-color: saddlebrown;
+            font-size: 20px;
+            font-family: 'Arial Nova';
+            color: wheat;
+        }
+
+
+        .card-title3 {
+            background-color: black;
+            color: orangered;
+            height: unset;
+            background-size: 10%;
+        }
+
+        .card-text3 {
+            font-family: 'Curlz MT';
+            font-weight: bold;
+            color: darkred;
+        }
+
+        .card-body3 {
+            background-color: black
+        }
+
+        .card-shooter3 {
+            color: white;
+            font-weight: bold;
+            background-color: black;
+            font-size: 20px;
+            font-family: 'Arial Nova';
+        }
+
+        .btn3 {
+            background-color: black;
+            font-size: 20px;
+            font-family: 'Arial Nova';
+            color: red;
+        }
+
+        .card-title4 {
+            background-color: black;
+            color: darkorange;
+            height: unset;
+            background-size: 10%;
+        }
+
+
+        .card-body4 {
+            background-color: black;
+        }
+
+        .card-text4 {
+            font-family: 'Arial Nova';
+            font-weight: bold;
+            color: darkorange;
+        }
+
+        .card-shooter4 {
+            color: white;
+            font-weight: bold;
+            background-color: black;
+            font-size: 20px;
+            font-family: 'Arial Nova';
+        }
+
+        .btn4 {
+            background-color: black;
+            color: darkorange;
+            font-family: 'Curlz MT';
+        }
+
+        .card-title5 {
+            background-color: forestgreen;
+            color: white;
+            background-size: 10%;
+        }
+
+        .card-body5 {
+            background-color: forestgreen;
+        }
+
+        .card-text5 {
+            font-family: 'Arial Nova';
+            font-weight: bold;
+            color: white;
+        }
+
+        .card-shooter5 {
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: 'Arial Nova';
+        }
+
+        .btn5 {
+            text-align: end;
+            color: white;
+            font-family: Arial;
+        }
+
+        .card-title6 {
+            color: black;
+            font-family: 'Arial Nova';
+            font-weight: bolder;
+        }
+
+        .card-body6 {
+            background-color: wheat;
+        }
+
+        .card-text6 {
+            color: black;
+            font-family: 'Arial Nova';
+            font-weight: bolder;
+        }
+
+        .card-shooter6 {
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: 'Arial Nova';
+        }
+
+        .btn6 {
+            text-align: end;
+            color: black;
+            font-family: Arial;
+        }
+
+        .card-title7 {
+            color: white;
+            font-family: 'Arial Nova';
+            font-weight: bolder;
+        }
+
+        .card-body7 {
+            background-color: black;
+        }
+
+        .card-text7 {
+            color: white;
+            font-family: 'Arial Nova';
+            font-weight: bolder;
+        }
+
+        .card-shooter7 {
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: 'Arial Nova';
+        }
+
+        .btn7 {
+            background-color: black;
+            color: white;
+            font-family: Haettenschweiler;
+        }
+
+        .card-tittle8 {
+            color: white;
+            font-family: 'Arial Nova';
+            font-weight: bolder;
+        }
+
+        .card-body8 {
+            background-color: black;
+        }
+
+        .card-text8 {
+            color: white;
+            font-family: 'Arial Nova';
+            font-weight: bolder;
+        }
+
+        .card-shooter8 {
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: 'Arial Nova';
+        }
+
+        .btn8 {
+            background-color: black;
+            color: white;
+            font-family: Haettenschweiler;
+            font-size: 24px;
+        }
+
+        .card-title9 {
+            color: white;
+            font-family: 'Arial Nova';
+            font-weight: bolder;
+        }
+
+        .card-body9 {
+            background-color: aqua;
+        }
+
+        .card-text9 {
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+        }
+
+        .card-shooter9 {
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: 'Arial Nova';
+        }
+
+        .btn9 {
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: 'Arial Nova';
+        }
+
+        .shoot {
+            text-align: end;
+            color: white;
+        }
+
+        .bi-c-circle-fill {
+            color: white;
+        }
+
+        .bi {
+            color: white;
+        }
+    </style>
+
+
+</head>
+
+<body class="bg">
+
+
+
+
+
+    <div id="header">
+        <div>
+            <nav class="navbar" style="background-color:black">
+                <nav>
+                    <span>Film İzle</span>
+                </nav>
+            </nav>
+        </div>
+
+    </div>
+
+    <div id="body">
+        <nav>
+            <div>
+
+                <a class="btn btn-primary" href="aksiyon.html" role="button">Aksiyon</a>
+                <a class="btn btn-primary" href="gerilim.html" role="button">Gerilim</a>
+                <a class="btn btn-primary" href="romantizm.html" role="button">Romantizm</a>
+                <a class="btn btn-primary" href="bilimKurgu.html" role="button">Bilim Kurgu</a>
+                <a class="btn btn-primary" href="dram.html" role="button">Dram</a>
+                <a class="btn btn-primary" href="anime.html" role="button">Anime</a>
+            </div>
+        </nav>
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <nav>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/dune.jpg" style=" text-align:center" class="  d-block w-15 h-10  ">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/scale.jpg" class="  d-block w-15 h-10">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/uzayYolcuları.jpg" class="  d-block w-15 h-10">
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="images/cityLights.jpg" class="card-img-top" width="350" height="600">
+                    <div class="card-body1">
+                        <h5 class="card-title1"> CITY LIGHTS</h5>
+                        <p class="card-text1">The film tells the story of the Tramp's love for a blind flower girl who mistakes him for a rich man. The Tramp's devotion to the girl forces him to undertake a slew of menial jobs to earn the money to play the part of a gentleman.</p>
+                        <p class="card-shooter1">Oyuncular: Charlie Chaplin,sdafsad,dfsdfsdf,dsfsdf</p>
+                        <a class="btn1" href="https://www.dailymotion.com/video/x8hwmz5" role="button">WATCH</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/forrest.jpg" class="card-img-top" width="150" height="615">    
+                    <div class="card-body2">
+                        <h5 class="card-title2">FORREST GUM</h5>
+                        <p class="card-text2">Although Forrest Gump wasn't a real person, there's a high possibility that he was partly inspired by veteran Sammy Lee Lewis, whose Vietnam War story is very similar to that of Gump'.</p>
+                        <p class="card-shooter2">Oyuncular:Tom Hanks, Robin,Wright,Gary Sinise,Sally Field. </p>
+                        <a class="btn2" href="https://www.fullhdfilmizlesene.de/film/avatar/" role="button">WATCH</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/mononoke.jpg" class="card-img-top" width="300" height="584">
+                    <div class="card-body3">
+                        <h5 class="card-title3">PRINCESS MONONOKE</h5>
+                        <p class="card-text3">That dynamic sets up one of the best and most convincing enemies-to-lovers romances to date, from anime to novels. Every moment is significant between San and Ashitaka, and their scenes together are often fight scenes.</p>
+                        <p class="card-shooter3">Oyuncular:Hayao Miyazaki,Yoji Matsuda,Yuriko Ishida,Toshio Suzuki.</p>
+                        <a class="btn3" href="https://www.beyazperde.com/filmler/film-73176/" role="button">WATCH</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/pianist.jpg" class="card-img-top" width="300" height="615">
+                    <div class="card-body4">
+                        <h5 class="card-title4">THE PIANIST</h5>
+                        <p class="card-text4"> It is based on the autobiographical book The Pianist (1946), a memoir by the Polish-Jewish pianist, composer and Holocaust survivor Władysław Szpilman. The film was a co-production by France, the United Kingdom, Germany and Poland.</p>
+                        <p class="card-shooter4">Oyuncular:Adrien Brody,Thomas Kretschman,Emillia Fox,Ed Stopprad,Frank Finlay, Jessica Kate Meyer</p>
+                        <a class="btn4" href="https://www.beyazperde.com/filmler/film-28359/" role="button">WATCH</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/return.jpg" class="card-img-top" width="300" height="584">
+                    <div class="card-body5">
+                        <h5 class="card-title5">STAR WARS RETURN OF THE JEDI</h5>
+                        <p class="card-text5">the film centres on Luke Skywalker (played by the then relatively unknown Mark Hamill), a young man who finds himself embroiled in an interplanetary war between an authoritarian empire and rebel forces.</p>
+                        <p class="card-shooter5">Oyuncular:Mark Hamill, Harrison Ford, Carrie Fisher, Alec Guinnes,Shelagh Fraser</p>
+                        <a class="btn5" href="https://www.beyazperde.com/filmler/film-25801/" role="button">WATCH</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/rise.jpg" class="card-img-top" width="300" height="584">
+                    <div class="card-body6">
+                        <h5 class="card-title6"> THE LORD OF RINGS THE RETURN OF THE KING </h5>
+
+                        <p class="card-text6">The Culmination of nearyl 10 years' work and conclusion to peter Jakson's epic trilogy based on the timeless J.R.R.Tolkien classic "The Lord of the Rings The Return of the King"</p>
+                        <p class="card-shooter6">Oyuncular:	Elijah Wood,Ian McKellen,Viggo Mortensen, Liv Tyler,Sean Astin,OrlandoBloom</p>
+                        <a class="btn6" href="https://www.fullhdfilmizlesene.de/film/yuzuklerin-efendisi-kralin-donusu/" role="button">WATCH</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/shawshank.jpg" class="card-img-top" width="300" height="550">
+                    <div class="card-body7">
+                        <h5 class="card-title7">THE SHAWSHANK REDEMTION</h5>
+                        <p class="card-text7">he Shawshank Redemption is an inspirational film. It shows the horrible side of our humanity, the strongest one, and the inevitably kindest one in a moment of sheer panic and violence</p>
+                        <p class="card-shooter7">Oyuncular:Morgan Freeman, Tim Robbins.Clancy Brown,Bob Gunton</p>
+                        <a class="btn3" href="https://www.beyazperde.com/filmler/film-11736/" role="button">WATCH</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/transformers.jpg" class="card-img-top" width="300" height="520">
+                    <div class="card-body8">
+                        <h5 class="card-title7">TRANSFORMERS</h5>
+                        <p class="card-text8">Witness the fight between Autobots and Decepticons! Now among them... the mechanical robots that were born at the beginning of the year are starting again. Earthlings will also witness the war between these robots, which are a technologically superior race.</p>
+                        <p class="card-shooter8">Oyuncular:Hayao Miyazaki,Yoji Matsuda,Yuriko Ishida,Toshio Suzuki.</p>
+                        <a class="btn8" href="https://www.fullhdfilmizlesene.de/film/transformers-1/" role="button">WATCH</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/walle.jpg" class="card-img-top" width="300" height="550">
+                    <div class="card-body9">
+                        <h5 class="card-title9">Wall-E </h5>
+                        <p class="card-text9">The film follows a solitary robot named WALL-E on a future, uninhabitable, deserted Earth in 2805, left to clean up garbage. He is visited by a robot called EVE sent from the starship Axiom, with whom he falls in love and pursues across the galaxy.</p>
+                        <p class="card-shooter9"> Oyuncular: Ben Brutt, Andrew Stanton, Elissa Knight, Kathy Najimy  </p>
+
+
+                        <a class="btn9" href="https://www.beyazperde.com/filmler/film-123734/" role="button">WATCH</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="shooter">
+
+        <nav>
+            <div class="shoot">
+
+                <i class="bi bi-c-circle-fill"></i><p>2024 Tüm Hakları Saklıdır</p>
+            </div>
+
+        </nav>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
